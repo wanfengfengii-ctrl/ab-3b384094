@@ -11,3 +11,16 @@ __pycache__/
 .nox/
 .pnpm-store/
 *.py[cod]
+
+# Go
+/server
+/verify
+*.test
+*.out
+
+# local runtime data
+/data
+*.db
+*.db-wal
+*.db-shm
+*.secret
